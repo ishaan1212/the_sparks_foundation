@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join our bank today</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/offers.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body onload="loader()">
+
+    <div id="loading"></div>
+
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">EASEMY-MONEY BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./offers.html">Join Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./customers.html">Our Customers</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- main content -->
+    <div class="container-fluid hero-content">
+        <div class="row align-items-center">
+            <div class="col-md-12 col-sm-12 text-center" data-aos="fade-right">
+                <h1>Tired of standing in a long queue?</h1>
+                <br>
+                <h1>Not able to visit the branch?</h1>
+                <br>
+                <h1>We have got it easy for you.</h1>
+                <h1 class="mainhead">Welcome to EASEMY-MONEY</h1>
+                <br>
+                <h2>The place where you will get all the benefits: <br> From easy money transfer to viewing the account balance <br> From gold loans to home loans at a lower rate of interest</h2>
+                <br>
+                <h2>Download our official app on Play Store and App Store</h2>
+                <p><button class="down">Download</button></p>
+                <h1>Already a customer?</h1>
+                <br>
+                <a class="get-started" href="./customers.html">CLICK TO TRANSFER</a>
+            </div>
+        </div>
+    </div>
+    <!-- main content ends here -->
+
+
+
+
+    <!-- footer starts here -->
+    <footer>
+        <hr>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <p>Created by Ishan Sachdeva.</p>
+
+            </div>
+            <div class="col-md-6 text-center">
+                <ul class="social-icons">
+                    Contact Me:
+                    <li><a target="_blank" class="github" href="https://github.com/ishaan1212"><i class="fab fa-github fa-2x"></i></a></li>
+
+                    <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/ishan-sachadeva-8b98b6183/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li><a target="_blank" class="facebook" href="https://www.facebook.com/profile.php?id=100007426757276"><i class="fab fa-facebook fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function loader() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+
+</body>
+
+</html>
